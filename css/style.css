@@ -50,7 +50,8 @@ a.navbar-brand{
 
 /* homepage hero */
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(media/hero.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../media/home.jpeg
+    );
     border-radius: 5px;
     height: 650px;
     /* width: 100%; */
