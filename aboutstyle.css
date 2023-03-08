@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-    /* background-color: #a6c6d4; */
     background-color: #e4ddd8;
-    /* background-color: #82a284; */
 }
 
 main{
@@ -20,8 +18,8 @@ nav{
 a.navbar-brand{
     font-family: 'Libre Baskerville', serif;
     font-size: xx-large;
-    background-color: #dd9ea0;
-    border: 5px solid #dd9ea0;
+    background-color: #82a284;
+    border: 5px solid #82a284;
     border-radius: 50%;
     margin-left: 10px;
 }
@@ -44,11 +42,10 @@ h1, h2{
 }
 p{
     font-family: 'Poppins', sans-serif;
-    font-style: italic;
 }
 
-.hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(media/hero.jpeg);
+.about-image{
+    background-image: url(media/about.jpeg);
     border-radius: 5px;
     height: 650px;
     /* width: 100%; */
@@ -56,68 +53,16 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin: 1%;
+    margin-bottom: 1%;
 }
-.hero-text {
-    font-weight: 800;
-    text-align: center;
-    position: absolute;
-    top: 600px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    /* letter-spacing: 3px; */
-    /* text-shadow: #e4ddd8; */
-}
-
-#meals{
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-bottom: 2%;
-    /* display: grid; */
-}
-h3{
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    color: #465874;
-}
-
-#films{
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-bottom: 2%;
-}
-#films img{
-    width: 250px;
-    height: 350px;
-    /* border: 5px solid #dd9ea0; */
-}
-#films a{
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    font-weight: 450;
-    text-align: center;
-    text-decoration: none;
-}
-#films p{
-    padding-top: 1%;
-    font-style: normal;
+h2#about-text {
     color: black;
+    /* border: 5px solid #375f77; */
 }
-button.films{
-    border: none;
-    background-color: transparent;
-}
-div.scrollmenu {
-    overflow: auto;
-    white-space: nowrap;
-}
-#films a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
+.about-text{
+    margin: 1%;
+    background-color: white;
+    border-radius: 5px;
 }
 
 /* footer */
