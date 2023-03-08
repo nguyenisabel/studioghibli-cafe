@@ -11,6 +11,15 @@ main{
     margin-bottom: 2%;
 }
 
+h1, h2{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+/* nav */
 nav{
     font-family: 'Poppins', sans-serif;
     /* background-color: #1eaeef; */
@@ -39,14 +48,7 @@ a.navbar-brand{
     color: #465874;
 }
 
-h1, h2{
-    font-family: 'Libre Baskerville', serif;
-}
-p{
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-}
-
+/* homepage hero */
 .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(media/hero.jpeg);
     border-radius: 5px;
@@ -66,15 +68,12 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    /* letter-spacing: 3px; */
-    /* text-shadow: #e4ddd8; */
 }
 
 #meals{
     padding-top: 2%;
     padding-left: 5%;
     padding-bottom: 2%;
-    /* display: grid; */
 }
 h3{
     font-family: 'Poppins', sans-serif;
@@ -82,6 +81,7 @@ h3{
     color: #465874;
 }
 
+/* homepage films carousel */
 #films{
     padding-top: 2%;
     padding-left: 5%;
@@ -118,6 +118,26 @@ div.scrollmenu {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+}
+
+/* all dishes */
+.all-dishes h1, h2{
+    text-align: center;
+}
+.all-dishes h2{
+    margin-top: 2%;
+    text-align: center;
+}
+button.dishes{
+    width: 400px;
+    padding: 1%;
+    margin: 0.5%;
+    border: none;
+}
+.dishes img{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3%;
 }
 
 /* footer */
