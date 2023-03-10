@@ -81,6 +81,10 @@ h2.meals{
 .col-sm-8{
     padding: 0;
 }
+
+.carousel-inner{
+    height: 500px;
+}
 .carousel.slide{
     padding: 0;
     left: 5%;
