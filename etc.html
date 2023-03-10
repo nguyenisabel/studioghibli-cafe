@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishes | Studio Ghibli Cafe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dishcolors.css">
+</head>
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+    <main>
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
+                </li>
+                <a class="navbar-brand d-none d-lg-block" href="index.html">
+                Studio Ghibli Cafe
+                </a>
+                <!-- dropdown -->
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Meals</a>
+                <ul class="dropdown-menu">
+                    <li>
+                    <a class="dropdown-item" href="breakfast.html">Breakfast</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item" href="lunch.html">Lunch</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item" href="dinner.html">Dinner</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item" href="etc.html">Snacks and Desserts</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item" href="all.html">All Dishes</a>
+                    </li>
+                </ul>
+                </li>
+                <!-- dropdown end -->
+                <li class="nav-item">
+                <a class="nav-link" href="films.html">Films</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    </main>
+
+    <div class="all-dishes">
+        <h1>Snacks and Desserts</h1>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <button class="dishes" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                        <img src="media/tea.jpeg" alt="">
+                        <p>Sponge Cake</p>
+                    </button>
+                </div>
+                <div class="col-6 col-md-4">
+                    <button class="dishes" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                        <img src="media/cake.jpeg" alt="">
+                        <p>Kiki's Chocolate Cake</p>
+                    </button>
+                </div>
+                <div class="col-6 col-md-4">
+                    <button class="dishes" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                        <img src="media/ohagi.jpg" alt="">
+                        <p>Ohagi</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Sponge Cake Recipe</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="ingredients">Ingredients</h2>
+                <ul>
+                    <li>1 1/2 tbsp granulated sugar</li>
+                    <li>1 1/2 tbsp milk</li>
+                    <li>1 1/2 tsp vanilla extract</li>
+                    <li>1 1/2 tbsp oil</li>
+                    <li>5 tbsp cake flour</li>
+                    <li>2 egg whites</li>
+                    <li>1 tsp white vinegar</li>
+                    <li>1 1/2 tbsp granulated sugar</li>
+                </ul>
+                <a href="https://youtu.be/fn30QJTYtCo" class="video">Video Tutorial</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Kiki's Chocolate Cake Recipe</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="ingredients">Ingredients</h2>
+                <p class="ingredients">for the cake:</p>
+                <ul>
+                    <li>1/2 cup granulated sugar (230 g)</li>
+                    <li>1 cup sifted all purpose flour (125 g)</li>
+                    <li>1/4 cup and 2 Tbsp cocoa powder (35 g)</li>
+                    <li>3/4 tsp baking powder (3 g)</li>
+                    <li>3/4 tsp baking soda (3 g)</li>
+                    <li>1/2 tsp salt (2 g)</li>
+                    <li>1 egg</li>
+                    <li>1/2 cup milk (125 ml)</li>
+                    <li>1/4 cup vegetable (or flavorless) oil (50 ml)</li>
+                    <li>1/2 cup just boiled water (125 ml)</li>
+                </ul>
+                <p class="ingredients">for the frosting:</p>
+                <ul>
+                    <li>4 Tbsp butter, melted (45 g)</li>
+                    <li>1/3 cup cocoa powder (25 g)</li>
+                    <li>1 1/2 cup icing sugar (185 g)</li>
+                    <li>2-4 Tbsp milk</li>
+                    <li>1/2 tsp. vanilla extract</li>
+                </ul>
+                <p class="ingredients">for the candy melts:</p>
+                <ul>
+                    <li>1/2 cup white chocolate (100 g)</li>
+                    <li>1/8 cup green (30 g)</li>
+                    <li>4 tablets red (10 g)</li>
+                </ul>
+                <h2 class="ingredients">Tips and Tricks</h2>
+                <p>Baking time varies on your oven! So make sure to check on your cake every now and then after the 30 minute mark.</p>
+                <p>If the top of your cake becomes darker before the rest is cooked, cover it lightly with aluminum foil for the remaining bake time.</p>
+                </ul>
+                <a href="https://youtu.be/Ed8-TdkSG-c" class="video">Video Tutorial</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Ohagi Recipe</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="ingredients">Ingredients</h2>
+                <p class="ingredients">for the anko:</p>
+                <ul>
+                    <li>1 cup azuki beans</li>
+                    <li>1 cup sugar (or to taste)</li>
+                    <li>pinch of salt</li>
+                </ul>
+                <p class="ingredients">for the rice:</p>
+                <ul>
+                    <li>360ml mochi rice</li>
+                    <li>390ml water</li>
+                    <li>pinch of salt</li>
+                </ul>
+                <p class="ingredients">optional:</p>
+                <ul>
+                    <li>kinako powder for topping</li>
+                </ul>
+                <h2 class="ingredients">Instructions</h2>
+                <ol>
+                    <li>Soak the beans in water overnight or for 24 hours.</li>
+                    <li>The next day, pour the old water away, and put in new water about 1-2 inches above the beans.</li>
+                    <li>Set beans to boil on high heat.</li>
+                    <li>Reduce to a simmer after it starts to boil. Keep some water handy to add whenever it boils down.</li>
+                    <li>When the beans are soft and you can smush one between your fingers, add the sugar in gradually, stirring with a ladle/slotted spoon.</li>
+                    <li>When you can draw a line at the bottom of the pot with the ladle that lasts for two seconds, it means it's viscous enough and then you can add in the salt, stir, and let it cool.</li>
+                    <li> Set the mochi rice to cook in your rice cooker. (Use the sushi rice function if it has one.)</li>
+                    <li>Sprinkle salt over and then mash it into rough chunks with a wet wooden pestle.</li>
+                </ol>
+                <p class="ingredients">for anko covered ohagi:</p>
+                <ol>
+                    <li>Wet a plastic glove or use clingwrap, and spread about 2 tbsp anko on it.</li>
+                    <li>Make a rice ball about 1-1.5 inch in diameter, and place it in the centre of the anko.</li>
+                    <li>Cover all the rice with anko. Add more anko if necessary.</li>
+                    <li>Enjoy!</li>
+                </ol>
+                <p class="ingredients">for kinako covered ohagi:</p>
+                <ol>
+                    <li>Spread and flatten the rice on your palm, with a layer of damp plastic in between your hand and the rice. Make it as flat and wide as you can.</li>
+                    <li>Place a dollop of anko in the centre, and work the rice to cover the anko. Add more rice if necessary. (And this was why my kinako ones were bigger than my anko-covered ones)</li>
+                    <li>Pour the kinako (soybean flour) on a plate, and roll the rice-covered ohagi in it.</li>
+                    <li>Enjoy!</li>
+                </ol>
+    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer>
+    Copyright &copy; 2023 Isabel Nguyen
+
+    <a href="#top" class="top">Back to Top</a>
+    </footer>
+</body>
+</html>  

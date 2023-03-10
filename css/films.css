@@ -44,6 +44,101 @@ a.navbar-brand{
     color: #465874;
 }
 
+.spirited-away .container.text-center .row.align-items-center.justify-content-center{
+    margin-top: 2.5%;
+}
+.spirited-away img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+
+.howls img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+
+.totoro .container.text-center .row.align-items-center.justify-content-center{
+    margin-bottom: 3.5%;
+}
+.totoro img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+
+.kiki .container.text-center .row.align-items-center.justify-content-center{
+    margin-top: 3%;
+}
+.kiki img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+
+.ponyo .container.text-center .row.align-items-center.justify-content-center{
+    margin-top: 3%;
+}
+.ponyo img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+.whisper .container.text-center .row.align-items-center.justify-content-center{
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.whisper img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+/* dish buttons and modals */
+.all-dishes h1, h2{
+    text-align: center;
+}
+.all-dishes h2{
+    margin-top: 2%;
+    text-align: center;
+}
+button.dishes{
+    width: 400px;
+    padding: 1%;
+    margin: 3%;
+    border: none;
+    border-radius: 5px;
+}
+.dishes img{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+h2.ingredients{
+    font-size: large;
+    font-weight: 400;
+}
+h2.special{
+    font-size: large;
+    font-weight: 400;
+    color: #465874;
+}
+p.ingredients{
+    font-style: normal;
+    padding: none;
+    margin: none;
+}
+a.video{
+    margin-left: 41.25%;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color: #000000;
+    background-color: #9c98a9;
+    border: 5px solid #9c98a9;
+    border-radius: 50%;
+}
+
 /* footer */
 footer{
     text-align: center;

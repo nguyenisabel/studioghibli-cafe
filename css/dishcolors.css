@@ -9,6 +9,15 @@ main{
     margin-bottom: 2%;
 }
 
+h1, h2{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+/* nav */
 nav{
     font-family: 'Poppins', sans-serif;
     margin: 1%;
@@ -16,8 +25,8 @@ nav{
 a.navbar-brand{
     font-family: 'Libre Baskerville', serif;
     font-size: xx-large;
-    background-color: #a6c6d4;
-    border: 5px solid #a6c6d4;
+    background-color: #dd9ea0;
+    border: 5px solid #dd9ea0;
     border-radius: 50%;
     margin-left: 10px;
 }
@@ -35,32 +44,48 @@ a.navbar-brand{
     color: #465874;
 }
 
-h1, h2{
-    font-family: 'Libre Baskerville', serif;
+/* all dishes */
+.all-dishes h1, h2{
+    text-align: center;
 }
-p{
-    font-family: 'Poppins', sans-serif;
+.all-dishes h2{
+    margin-top: 2%;
+    text-align: center;
+}
+button.dishes{
+    width: 400px;
+    padding: 1%;
+    margin: 0.5%;
+    border: none;
+}
+.dishes img{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3%;
 }
 
-.about-image{
-    background-image: url(../media/about.jpeg);
-    border-radius: 5px;
-    height: 650px;
-    /* width: 100%; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-bottom: 1%;
+h2.ingredients{
+    font-size: large;
+    font-weight: 400;
 }
-h2#about-text {
-    color: black;
+h2.special{
+    font-size: large;
+    font-weight: 400;
+    color: #465874;
 }
-.about-text{
-    margin: 5% 1%;
-    padding: 12px;
-    background-color: white;
-    border-radius: 5px;
+p.ingredients{
+    font-style: normal;
+    padding: none;
+    margin: none;
+}
+a.video{
+    margin-left: 41.25%;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color: #000000;
+    background-color: #9c98a9;
+    border: 5px solid #9c98a9;
+    border-radius: 50%;
 }
 
 /* footer */

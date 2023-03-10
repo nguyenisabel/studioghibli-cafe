@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-    /* background-color: #a6c6d4; */
     background-color: #e4ddd8;
-    /* background-color: #82a284; */
 }
 
 main{
@@ -22,8 +20,6 @@ p{
 /* nav */
 nav{
     font-family: 'Poppins', sans-serif;
-    /* background-color: #1eaeef; */
-    /* background-color: #dd9ea0; */
     margin: 1%;
 }
 a.navbar-brand{
@@ -71,15 +67,32 @@ a.navbar-brand{
     color: white;
 }
 
-#meals{
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-bottom: 2%;
+/* meals */
+.meals{
+    padding: none;
+    margin: none;
 }
-h3{
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    color: #465874;
+h2.meals{
+    margin-top: 50%;
+    background-color: #9c98a9;
+    border: 2px solid #9c98a9;
+    border-radius: 50%;
+}
+.col-sm-8{
+    padding: 0;
+}
+.carousel.slide{
+    padding: 0;
+    left: 5%;
+}
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+h1.meals{
+    color: #fff;
+    text-shadow: 1px 1px 1.5px #000000;
 }
 
 /* homepage films carousel */
@@ -91,7 +104,7 @@ h3{
 #films img{
     width: 250px;
     height: 350px;
-    /* border: 5px solid #dd9ea0; */
+    border-radius: 5px;
 }
 #films a{
     font-family: 'Poppins', sans-serif;

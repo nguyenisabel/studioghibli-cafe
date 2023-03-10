@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishes | Studio Ghibli Cafe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dishcolors.css">
+</head>
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+    <main>
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
+                </li>
+                <a class="navbar-brand d-none d-lg-block" href="index.html">
+                Studio Ghibli Cafe
+                </a>
+                <!-- dropdown -->
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Meals</a>
+                <ul class="dropdown-menu">
+                    <li>
+                    <a class="dropdown-item" href="breakfast.html">Breakfast</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item" href="lunch.html">Lunch</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item" href="dinner.html">Dinner</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item" href="etc.html">Snacks and Desserts</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item" href="all.html">All Dishes</a>
+                    </li>
+                </ul>
+                </li>
+                <!-- dropdown end -->
+                <li class="nav-item">
+                <a class="nav-link" href="films.html">Films</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    </main>
+
+    <div class="all-dishes">
+        <h1>Dinner</h1>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <button class="dishes" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                        <img src="media/feast.jpeg" alt="">
+                        <p>Feast from Spirited Away</p>
+                    </button>
+                </div>
+                <div class="col-6 col-md-4">
+                    <button class="dishes" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                        <img src="media/pie.jpeg" alt="">
+                        <p>Pumpkin and Herring Pie</p>
+                    </button>
+                </div>
+                <div class="col-6 col-md-4">
+                    <button class="dishes" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                        <img src="media/udon.jpeg" alt="">
+                        <p>Nabeyaki Udon</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Steamed Taiwanese Meatball Dumpling Recipe</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="special">The feast featured in Spirited Away feast featured a large number of dishes. The following recipe illustrates how to make the steamed taiwanese meatball dumplings, however the video linked below demonstrates how to make several other dishes within this feast.</h2>
+                <h2 class="ingredients">Ingredients</h2>
+                <ul>
+                    <li>300g sago</li>
+                    <li>2-3 tbsp tapioca powder</li>
+                    <li>300g minced pork</li>
+                    <li>bamboo shoots</li>
+                    <li>4 shiitake mushrooms</li>
+                    <li>1 clove garlic</li>
+                    <li>1 tbsp shallot sauce</li>
+                    <li>1 tbsp soy sauce</li>
+                    <li>1 tbsp rice wine</li>
+                    <li>1 egg</li>
+                    <li>1/2 tbsp potato starch</li>
+                    <li>white paper powder</li>
+                    <li>1 tsp caster sugar</li>
+                    <li>salt</li>
+                    <li>chinese five-spice powder</li>
+                    <li>coriander for garnish</li>
+                </ul>
+                <p class="ingredients">for the garlic sauce:</p>
+                <ul>
+                    <li>3 tbsp thick soy sauce</li>
+                    <li>1 tsp caster sugar</li>
+                    <li>1 clove garlic</li>
+                    <li>1 1/2 tsp water</li>
+                </ul>
+                <p class="ingredients">for the red chili sauce:</p>
+                <ul>
+                    <li>40g miso</li>
+                    <li>2 tbsp ketchup</li>
+                    <li>chili powder or chili sauce</li>
+                    <li>1 tbsp caster sugar</li>
+                    <li>1 tbsp rice flour</li>
+                    <li>200 ml water</li>
+                    <li>1 tsp soy sauce</li>
+                </ul>
+                <h2 class="ingredients">Instructions</h2>
+                <ol>
+                    <li>Pour some water into the sago rice and soak it for 15-20 minutes.</li>
+                    <li>Fry the mushrooms and bamboo shoots. Add in some salt and shallot sauce for seasoning. Set aside to cool.</li>
+                    <li>Add salt, sugar, Chinese five spices, white pepper powder, minced garlic, rice wine, soy sauce, egg and potato starch into the minced pork. Mix and stir the meat (clockwise) until all the ingredients are combined together. Add in the mushrooms and bamboo shoots. Leave in the fridge for 40-60 minutes.</li>
+                    <li>Beat the sago rice and mix it with tapioca to form the wrapping dough. Smear some oil on the palms. Take some sago dough and flatten it. Place some mined pork in the middle. Wrap and roll it like a ball. Place it on a steamer paper.</li>
+                    <li>Steam them for 15-18 minutes (time can be variable depends on the size). When the dough turns into translucent, it's done.</li>
+                    <li>Garlic sauce: mix all ingredients together. Red Chilli sauce: place all ingredients (apart from soy sauce) into a milk pan. Mix well and heat it until the sauce turns thicker. Turn off the heat and stir in the soy sauce.</li>
+                    <li>Use successors to cut open the top of ba-wan. Pour over some garlic sauce and red chilli sauce. Garnish with some coriander. Enjoy!</li>
+                </ol>
+                <a href="https://youtu.be/GI-w_R7CqR8" class="video">Video Tutorial</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Pumpkin and Herring Pie Recipe</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="ingredients">Ingredients</h2>
+                <ul>
+                    <li>1 fillet of herring fish (can be substituted with any sort of white fish such as code, trout, or pollock), it is up to you how large or small the fillet will be</li>
+                    <li>1 tbsp salted butter</li>
+                    <li>pinch of salt and pepper</li>
+                    <li>1 cup diced onions (up to you how much or little you want to put in)</li>
+                    <li>1 tbsp olive oil</li>
+                    <li>1 tbsp garlic</li>
+                    <li>1 tbsp salted or unsalted butter</li>
+                    <li>2 tbsp butter</li>
+                    <li>2 tbsp all-purpose flour</li>
+                    <li>1 cup milk (use more if you'd like the dish to be soupier)</li>
+                    <li>half a cup of veggies of choice</li>
+                    <li>1 pre-made pie crust</li>
+                    <li>4 pitted black olives</li>
+                </ul>
+                <p class="ingredients">for the egg wash:</p>
+                <ul>
+                    <li>1 egg</li>
+                    <li>1 tbsp milk or cream</li>
+                </ul>
+                <a href="https://youtu.be/p7quxDn4dGA" class="video">Video Tutorial</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Nabeyaki Udon Recipe</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="ingredients">Ingredients</h2>
+                <ul>
+                    <li>4 dried shiitake mushrooms</li>
+                    <li>warm water</li>
+                    <li>1 stalk spinach, rinsed</li>
+                    <li>1" (3 cm) carrot</li>
+                    <li>1 package kamaboko (but you will only need a few slices)</li>
+                    <li>1/3 package (1 oz/28 g) shimeji mushrooms, bottom 1/2" trimmed</li>
+                    <li>6" (15 cm) naga negi/Tokyo negi (use white part) (or leeks, green onions/scallions)</li>
+                    <li>1 chicken thigh</li>
+                    <li>2 packages udon (I like sanuki udon)</li>
+                    <li>2 eggs</li>
+                    <li>2 stalks mitsuba (optional)</li>
+                    <li>shichimi togarashi (Japanese seven spice) (optional)</li>
+                </ul>
+                <p class="ingredients">for the udon soup:</p>
+                <ul>
+                    <li>3 cups dashi</li>
+                    <li>dashi from dried shiitake mushrooms</li>
+                    <li>2 tbsp mirin</li>
+                    <li>1 1/2 tbsp soy sauce</li>
+                    <li>1 tsp salt</li>
+                </ul>
+                <p class="ingredients">for the shrimp tempura:<br><i>you can always use frozen shrimp tempura, but for homemade these are the ingredients</i></p>
+                <ul>
+                    <li>2 large shrimp</li>
+                    <li>25g tempura batter mix</li>
+                    <li>40 ml cold water</li>
+                    <li>potato or corn starch for dusting</li>
+                </ul>
+                <h2 class="ingredients">Instructions</h2>
+                <ol>
+                    <li>Make the udon soup by combining the dashi, mirin, soy sauce, and salt.</li>
+                    <li>Cut all the ingredients and cook the udon noodles according to the package instructions.</li>
+                    <li>n individual donabe clay pots, add the udon soup, udon noodles, and all the ingredients except for the egg, leafy green, and tempura. Cook until the ingredients are warm and cooked through.</li>
+                    <li>Add an egg and cook until the egg is done to your liking.</li>
+                    <li>Place the shrimp tempura and leafy green on top. Serve immediately and enjoy!</li>
+                </ol>
+                <a href="https://youtu.be/l3E2JnV8w38" class="video">Video Tutorial</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer>
+    Copyright &copy; 2023 Isabel Nguyen
+
+    <a href="#top" class="top">Back to Top</a>
+    </footer>
+</body>
+</html>  
